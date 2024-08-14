@@ -1,7 +1,3 @@
-Aquí te dejo un borrador del `README.md` que detalla todo lo que hemos hecho y los pasos necesarios para usar el proyecto. Este documento está diseñado para proporcionar una guía completa para cualquier persona que quiera utilizar o contribuir al proyecto.
-
----
-
 # ZPL to PDF Converter
 
 ## Descripción
