@@ -1,3 +1,0 @@
-([('Label Generator',
-   '/Users/raulmb/PycharmProjects/zpl_to_pdf/dist/Label Generator',
-   'EXECUTABLE')],)
