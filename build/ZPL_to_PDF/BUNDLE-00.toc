@@ -1,0 +1,3 @@
+([('ZPL_to_PDF',
+   '/Users/raulmb/PycharmProjects/zpl_to_pdf/dist/ZPL_to_PDF',
+   'EXECUTABLE')],)

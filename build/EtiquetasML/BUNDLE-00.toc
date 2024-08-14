@@ -1,0 +1,3 @@
+([('EtiquetasML',
+   '/Users/raulmb/PycharmProjects/zpl_to_pdf/build/EtiquetasML/EtiquetasML',
+   'EXECUTABLE')],)
