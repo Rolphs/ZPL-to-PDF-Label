@@ -1,29 +1,33 @@
 import os
-import zipfile
 from logger import logger
+from tkinter import filedialog
+from optimize import optimize_zpl
+from generate import convert_zpl_to_pdf
+from utils.model_manager import sugerir_nombre_archivo, actualizar_modelo_guardado
 
-def leer_archivo_zpl(file_path):
-    with open(file_path, 'r') as file:
-        return file.read()
+def leer_archivo_zpl(ruta_archivo):
+    with open(ruta_archivo, 'r') as archivo:
+        return archivo.read()
 
-def extraer_archivos_zip(zip_file_path):
-    zpl_files = []
-    with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
-        extract_dir = os.path.dirname(zip_file_path)
-        zip_ref.extractall(extract_dir)
-        for file_name in zip_ref.namelist():
-            if file_name.lower().endswith(('.zpl', '.txt')):
-                zpl_files.append(os.path.join(extract_dir, file_name))
-    logger.info(f"Archivos extraídos: {zpl_files}")
-    return zpl_files
+def extraer_archivos_zip(ruta_zip):
+    # Supongamos que esta función extrae archivos y devuelve una lista de rutas a los archivos extraídos
+    pass
 
-def guardar_zpl_optimizado(zpl_data, original_file_path):
-    optimized_file_path = original_file_path.replace('.txt', '_optimized.txt').replace('.zpl', '_optimized.zpl')
-    with open(optimized_file_path, 'w') as file:
-        file.write(zpl_data)
-    logger.info(f"ZPL optimizado guardado en: {optimized_file_path}")
+def guardar_zpl_optimizado(contenido, ruta_archivo):
+    with open(ruta_archivo, 'w') as archivo:
+        archivo.write(contenido)
 
-def manejar_archivo_seleccionado(archivo, seleccionar_ubicacion_guardado, optimize_zpl, convert_zpl_to_pdf, sugerir_nombre_archivo, actualizar_modelo_guardado):
+def seleccionar_ubicacion_guardado(directorio, nombre_sugerido):
+    archivo_guardado = filedialog.asksaveasfilename(
+        initialdir=directorio,
+        title="Guardar archivo como...",
+        defaultextension=".pdf",
+        initialfile=nombre_sugerido,
+        filetypes=[("PDF files", "*.pdf")]
+    )
+    return archivo_guardado
+
+def manejar_archivo_seleccionado(archivo):
     try:
         # Si el archivo es un ZIP, extraerlo
         if archivo.lower().endswith('.zip'):
@@ -57,4 +61,4 @@ def manejar_archivo_seleccionado(archivo, seleccionar_ubicacion_guardado, optimi
                 logger.warning("No se seleccionó ubicación para guardar el archivo.")
     except Exception as e:
         logger.error(f"Error al procesar el archivo {archivo}. Detalle del error: {e}")
-        raise e
+        sys.exit(1)

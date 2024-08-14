@@ -130,3 +130,24 @@
 ^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
 2024-08-13 17:47:24,677 - ZPLToPDFLogger - INFO - Optimizing ZPL for /Users/raulmb/Downloads/Etiqueta de envio 5.txt
 2024-08-13 17:47:24,677 - ZPLToPDFLogger - ERROR - Error al procesar el archivo /Users/raulmb/Downloads/Etiqueta de envio 5.txt. Detalle del error: name 'seleccionar_ubicacion_guardado' is not defined
+2024-08-13 18:52:32,462 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 18:52:32,463 - ZPLToPDFLogger - INFO - Optimizing ZPL for /Users/raulmb/Downloads/Etiqueta de envio 5.txt
+2024-08-13 18:52:39,808 - ZPLToPDFLogger - INFO - Enviando solicitud a http://api.labelary.com/v1/printers/12dpmm/labels/4x6/0/...
+2024-08-13 18:52:40,043 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240813_1.pdf
+2024-08-13 18:58:09,027 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 18:58:09,028 - ZPLToPDFLogger - INFO - Optimizing ZPL for /Users/raulmb/Downloads/Etiqueta de envio 4.txt
+2024-08-13 18:58:13,210 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240813_2.pdf

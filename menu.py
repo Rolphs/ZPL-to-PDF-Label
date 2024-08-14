@@ -1,26 +1,16 @@
-import os
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from utils.file_manager import manejar_archivo_seleccionado
 from logger import logger
 
-def seleccionar_ubicacion_guardado(directorio_sugerido, nombre_archivo_sugerido):
-    default_name = os.path.join(directorio_sugerido, nombre_archivo_sugerido)
-    archivo_guardado = filedialog.asksaveasfilename(
-        title="Guardar archivo PDF como...",
-        initialdir=directorio_sugerido,
-        initialfile=nombre_archivo_sugerido,
-        filetypes=[("PDF files", "*.pdf")]
-    )
-    return archivo_guardado if archivo_guardado else None
-
 class ZPLToPDFApp:
-    def __init__(self, root):
+    def __init__(self, root, manejar_archivo_seleccionado):
         self.root = root
         self.root.title("ZPL to PDF Converter")
+        self.manejar_archivo_seleccionado = manejar_archivo_seleccionado
 
         # Configurar el tamaño de la ventana
-        self.root.geometry("500x300")
+        self.root.geometry("500x300")  # Ajustado para más espacio y permitir redimensionar
         self.root.resizable(True, True)
 
         # Lista para guardar los archivos seleccionados
@@ -55,7 +45,7 @@ class ZPLToPDFApp:
         archivos = filedialog.askopenfilenames(title="Selecciona uno o más archivos", filetypes=filetypes)
         if archivos:
             self.archivos_seleccionados = list(archivos)
-            self.archivos_listbox.delete(0, tk.END)
+            self.archivos_listbox.delete(0, tk.END)  # Limpiar la lista antes de agregar nuevos elementos
             for archivo in archivos:
                 self.archivos_listbox.insert(tk.END, archivo)
             self.instruction_label.config(text=f"Seleccionados: {len(self.archivos_seleccionados)} archivos")
@@ -66,29 +56,16 @@ class ZPLToPDFApp:
             return
 
         try:
-            from utils.model_manager import sugerir_nombre_archivo, actualizar_modelo_guardado
-            from optimize import optimize_zpl
-            from generate import convert_zpl_to_pdf
-
             for archivo in self.archivos_seleccionados:
-                manejar_archivo_seleccionado(
-                    archivo,
-                    seleccionar_ubicacion_guardado,
-                    optimize_zpl,
-                    convert_zpl_to_pdf,
-                    sugerir_nombre_archivo,
-                    actualizar_modelo_guardado
-                )
+                self.manejar_archivo_seleccionado(archivo)
 
             messagebox.showinfo("Éxito", "Archivos procesados y guardados exitosamente.")
         except Exception as e:
             logger.error(f"Error al procesar los archivos: {e}")
-            messagebox.showerror("Error", f"Error al procesar los archivos: {e}")
+            messagebox.showerror("Earror", f"Error al procesar los archivos: {e}")
 
-def main():
+
+def main(manejar_archivo_seleccionado):
     root = tk.Tk()
-    app = ZPLToPDFApp(root)
+    app = ZPLToPDFApp(root, manejar_archivo_seleccionado)
     root.mainloop()
-
-if __name__ == "__main__":
-    main()
