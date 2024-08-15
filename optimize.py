@@ -1,10 +1,9 @@
-import re
-from logger import logger
+def optimize_zpl(zpl_data):
+    """
+    Función mínima para procesar el código ZPL sin realizar cambios significativos.
 
-def optimize_zpl(zpl_data, original_file_path):
-    logger.info(f"Optimizing ZPL for {original_file_path}")
-
-    # Realiza las optimizaciones necesarias aquí
-    optimized_zpl = zpl_data.replace("^FO", "^FP")  # Ejemplo simple
-
-    return optimized_zpl
+    :param zpl_data: El código ZPL original.
+    :return: El código ZPL tal cual.
+    """
+    # Aquí no se realiza ninguna optimización, simplemente se devuelve el ZPL original
+    return zpl_data

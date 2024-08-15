@@ -151,3 +151,337 @@
 ^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
 2024-08-13 18:58:09,028 - ZPLToPDFLogger - INFO - Optimizing ZPL for /Users/raulmb/Downloads/Etiqueta de envio 4.txt
 2024-08-13 18:58:13,210 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240813_2.pdf
+2024-08-13 19:11:25,887 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 19:11:29,403 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240813_3.pdf
+2024-08-13 19:13:41,461 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 19:13:41,463 - ZPLToPDFLogger - ERROR - Error al procesar el archivo /Users/raulmb/Downloads/Etiqueta de envio 5.txt. Detalle del error: optimize_zpl() got an unexpected keyword argument 'original_file_path'
+2024-08-13 19:13:41,463 - ZPLToPDFLogger - ERROR - Error al procesar los archivos: name 'sys' is not defined
+2024-08-13 19:13:45,993 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 19:13:45,994 - ZPLToPDFLogger - ERROR - Error al procesar el archivo /Users/raulmb/Downloads/Etiqueta de envio 5.txt. Detalle del error: optimize_zpl() got an unexpected keyword argument 'original_file_path'
+2024-08-13 19:13:45,994 - ZPLToPDFLogger - ERROR - Error al procesar los archivos: name 'sys' is not defined
+2024-08-13 19:22:11,905 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 19:22:11,906 - ZPLToPDFLogger - ERROR - Error al procesar el archivo /Users/raulmb/Downloads/Etiqueta de envio 4.txt. Detalle del error: optimize_zpl() got an unexpected keyword argument 'original_file_path'
+2024-08-13 19:22:11,906 - ZPLToPDFLogger - ERROR - Error al procesar los archivos: name 'sys' is not defined
+2024-08-13 19:26:46,830 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 19:26:46,834 - ZPLToPDFLogger - ERROR - Error al procesar el archivo /Users/raulmb/Downloads/Etiqueta de envio 5.txt. Detalle del error: name 'seleccionar_ubicacion_guardado' is not defined
+2024-08-13 19:38:46,745 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 19:38:46,747 - ZPLToPDFLogger - ERROR - Error al procesar el archivo /Users/raulmb/Downloads/Etiqueta de envio 5.txt. Detalle del error: optimize_zpl() got an unexpected keyword argument 'original_file_path'
+2024-08-13 19:38:46,747 - ZPLToPDFLogger - ERROR - Error al procesar los archivos: name 'sys' is not defined
+2024-08-13 19:59:58,758 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 19:59:58,760 - ZPLToPDFLogger - ERROR - Error al procesar el archivo /Users/raulmb/Downloads/Etiqueta de envio 5.txt. Detalle del error: optimize_zpl() got an unexpected keyword argument 'original_file_path'
+2024-08-13 19:59:58,760 - ZPLToPDFLogger - ERROR - Error al procesar los archivos: name 'sys' is not defined
+2024-08-13 20:04:59,804 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 20:04:59,805 - ZPLToPDFLogger - ERROR - Error al procesar el archivo /Users/raulmb/Downloads/Etiqueta de envio 5.txt. Detalle del error: optimize_zpl() got an unexpected keyword argument 'original_file_path'
+2024-08-13 20:04:59,805 - ZPLToPDFLogger - ERROR - Error al procesar los archivos: name 'sys' is not defined
+2024-08-13 20:12:09,322 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 20:12:16,532 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240813_4.pdf
+2024-08-13 20:16:56,268 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 20:17:01,296 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240813_5.pdf
+2024-08-13 20:20:55,734 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 20:21:01,852 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240813_6.pdf
+2024-08-13 20:22:15,277 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 20:22:21,096 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240813_7.pdf
+2024-08-13 20:33:51,212 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 20:33:55,658 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240813_8.pdf
+2024-08-13 20:36:54,871 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 20:37:00,370 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240813_9.pdf
+2024-08-13 20:37:00,371 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FP20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-13 20:37:04,579 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240813_10.pdf
+2024-08-14 08:38:16,692 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 08:38:20,709 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiqueta MercadoEnvios-202408131437-2/label_240814_1.pdf
+2024-08-14 08:38:20,712 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 08:38:24,637 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiqueta MercadoEnvios-202408131437/label_240814_1.pdf
+2024-08-14 08:44:04,220 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 08:44:12,475 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240814_2.pdf
+2024-08-14 08:44:12,479 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 08:44:27,419 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240814_2.pdf
+2024-08-14 08:45:47,614 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 08:45:59,609 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240814_1.pdf
+2024-08-14 08:45:59,613 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 08:46:08,441 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/label_240814_2.pdf
+2024-08-14 08:53:10,291 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 08:53:14,513 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiqueta MercadoEnvios-202408131437-2/Etiqueta_1.pdf
+2024-08-14 08:53:14,514 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiqueta MercadoEnvios-202408131437-2/Etiqueta_1.pdf
+2024-08-14 08:54:10,505 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 08:54:15,018 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiqueta_1.pdf
+2024-08-14 08:54:15,018 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiqueta_1.pdf
+2024-08-14 08:55:22,268 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 09:13:10,862 - ZPLToPDFLogger - ERROR - Error en la ejecución del programa: main() takes 0 positional arguments but 1 was given
+2024-08-14 09:14:28,922 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 09:14:37,204 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiqueta_0001.pdf
+2024-08-14 09:14:37,205 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiqueta_0001.pdf
+2024-08-14 09:14:37,206 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 09:14:41,411 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiqueta_0002.pdf
+2024-08-14 09:14:41,411 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiqueta_0002.pdf
+2024-08-14 09:54:54,219 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 09:55:10,178 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0003.pdf
+2024-08-14 09:55:10,181 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0003.pdf
+2024-08-14 09:55:10,183 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 09:55:28,234 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0004.pdf
+2024-08-14 09:55:28,236 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0004.pdf
+2024-08-14 09:55:28,237 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 09:55:40,954 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0005.pdf
+2024-08-14 09:55:40,954 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0005.pdf
+2024-08-14 09:55:40,955 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 09:55:50,573 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0006.pdf
+2024-08-14 09:55:50,575 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0006.pdf
+2024-08-14 09:55:50,576 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 09:55:59,256 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0007.pdf
+2024-08-14 09:55:59,257 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0007.pdf
+2024-08-14 09:55:59,258 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 09:56:25,525 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0008.pdf
+2024-08-14 09:56:25,526 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0008.pdf
+2024-08-14 09:56:25,528 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 09:56:34,067 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0009.pdf
+2024-08-14 09:56:34,069 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0009.pdf
+2024-08-14 10:23:21,475 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 10:23:36,737 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0010.pdf
+2024-08-14 10:23:36,739 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0010.pdf
+2024-08-14 10:39:47,606 - ZPLToPDFLogger - INFO - Archivo leído correctamente. Contenido:
+^XA
+^MCY
+^CI28
+^LH5,15
+^FX  HEADER  ^FS
+^FX  Logo_Meli  ^FS
+^FO20,10^GFA,800,800,10,,:::::::::::O0FF,M07JFE,L07FC003FE,K07EL07E,J01EN078,J07P0E,I01CP038,I07R0E,001CK01FK038,003L0IFK0C,0078J03803CJ0E,0...
+2024-08-14 10:40:00,850 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0011.pdf
+2024-08-14 10:40:00,853 - ZPLToPDFLogger - INFO - PDF guardado exitosamente en: /Users/raulmb/Downloads/Etiquetas/Etiqueta_0011.pdf
