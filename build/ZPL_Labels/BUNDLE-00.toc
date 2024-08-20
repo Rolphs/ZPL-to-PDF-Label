@@ -1,0 +1,3 @@
+([('ZPL_Labels',
+   '/Users/raulmb/Documents/GitHub/Rolphs/dist/ZPL_Labels',
+   'EXECUTABLE')],)

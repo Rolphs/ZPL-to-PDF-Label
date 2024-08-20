@@ -32,14 +32,14 @@ exe = EXE(
     console=False,
     disable_windowed_traceback=False,
     argv_emulation=False,
-    target_arch=None,
+    target_arch='universal2',
     codesign_identity=None,
     entitlements_file=None,
-    icon=['/Users/raulmb/Documents/GitHub/Rolphs/icon.icns'],
+    icon=['/path/to/icon.icns'],
 )
 app = BUNDLE(
     exe,
     name='Etiquetas de Envío.app',
-    icon='/Users/raulmb/Documents/GitHub/Rolphs/icon.icns',
-    bundle_identifier=None,
+    icon='/path/to/icon.icns',
+    bundle_identifier='com.tuempresa.etiquetas',
 )
