@@ -3,14 +3,19 @@ import json
 
 # Ruta donde se guardan las preferencias y el consecutivo
 PREFERENCES_FILE = 'preferences.json'
+DEFAULT_PREFERENCES_FILE = 'preferences.example.json'
 
 
 def cargar_datos():
     """
-    Carga las preferencias y el consecutivo desde un archivo JSON.
+    Carga las preferencias y el consecutivo desde un archivo JSON. Si el archivo
+    de usuario no existe, intenta cargar desde ``preferences.example.json``.
     """
     if os.path.exists(PREFERENCES_FILE):
         with open(PREFERENCES_FILE, 'r') as file:
+            return json.load(file)
+    elif os.path.exists(DEFAULT_PREFERENCES_FILE):
+        with open(DEFAULT_PREFERENCES_FILE, 'r') as file:
             return json.load(file)
     else:
         return {"consecutivo": 1, "directorio": "", "nomenclatura": "Etiqueta"}
