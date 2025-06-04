@@ -4,7 +4,7 @@ from logger import logger
 
 def convert_zpl_to_pdf(zpl_data, pdf_output_path):
     try:
-        # URL de la API de Labelary para la conversión de ZPL a PDF con 12dpm (300 DPI)
+        # URL de la API de Labelary para la conversión de ZPL a PDF con 12dpmm (300 DPI)
         url = 'http://api.labelary.com/v1/printers/12dpmm/labels/4x6/0/'
         files = {'file': zpl_data}
         headers = {'Accept': 'application/pdf'}  # Solicitar un archivo PDF en la respuesta
