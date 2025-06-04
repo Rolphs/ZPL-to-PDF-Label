@@ -3,6 +3,7 @@ import zipfile
 from logger import logger
 from tkinter import filedialog
 from generate import convert_zpl_to_pdf
+from optimize import optimize_zpl
 from utils.model_manager import sugerir_nombre_archivo, actualizar_modelo_guardado
 
 def leer_archivo_zpl(ruta_archivo):
@@ -49,7 +50,9 @@ def procesar_y_guardar_pdf(zpl_data, zpl_archivo, pdf_file):
     Realiza la conversión de ZPL a PDF y guarda el archivo generado.
     """
     try:
-        convert_zpl_to_pdf(zpl_data, pdf_file)
+        logger.info(f"Optimizing ZPL for {zpl_archivo}")
+        optimized_zpl = optimize_zpl(zpl_data, original_file_path=zpl_archivo)
+        convert_zpl_to_pdf(optimized_zpl, pdf_file)
         actualizar_modelo_guardado(pdf_file)
         logger.info(f"PDF guardado exitosamente en: {pdf_file}")
     except Exception as e:
