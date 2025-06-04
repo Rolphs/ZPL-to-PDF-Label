@@ -1,5 +1,6 @@
 import os
 import zipfile
+import sys
 from logger import logger
 from tkinter import filedialog
 from generate import convert_zpl_to_pdf
