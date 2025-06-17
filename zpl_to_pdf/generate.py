@@ -1,6 +1,6 @@
 import requests
 import shutil
-from logger import logger
+from zpl_to_pdf.logger import logger
 
 def convert_zpl_to_pdf(zpl_data, pdf_output_path):
     try:

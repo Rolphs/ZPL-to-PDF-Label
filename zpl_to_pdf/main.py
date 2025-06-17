@@ -1,6 +1,6 @@
-from logger import logger
-from menu import main as menu_main  # Importamos el main desde menu.py
-from utils.model_manager import mostrar_etiquetas_generadas
+from zpl_to_pdf.logger import logger
+from zpl_to_pdf.menu import main as menu_main  # Importamos el main desde menu.py
+from zpl_to_pdf.utils.model_manager import mostrar_etiquetas_generadas
 
 def main():
     try:

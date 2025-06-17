@@ -1,15 +1,12 @@
 import io
-import shutil
 from unittest.mock import patch
 
-import requests
+from zpl_to_pdf.generate import convert_zpl_to_pdf
 
 
 def test_labelary_example(tmp_path):
     zpl = "^XA^XZ"
-    url = 'http://api.labelary.com/v1/printers/8dpmm/labels/4x6/0/'
-    files = {'file': zpl}
-    headers = {'Accept': 'application/pdf'}
+    url = 'http://api.labelary.com/v1/printers/12dpmm/labels/4x6/0/'
     fake_pdf = b'%PDF-1.4\n%Fake PDF\n'
 
     class FakeResponse:
@@ -18,12 +15,14 @@ def test_labelary_example(tmp_path):
             self.raw = io.BytesIO(content)
             self.text = ''
 
+    output_file = tmp_path / 'label.pdf'
+
     with patch('requests.post', return_value=FakeResponse(fake_pdf)) as mock_post:
-        response = requests.post(url, headers=headers, files=files, stream=True)
-        assert response.status_code == 200
-        response.raw.decode_content = True
-        output_file = tmp_path / 'label.pdf'
-        with open(output_file, 'wb') as out_file:
-            shutil.copyfileobj(response.raw, out_file)
+        convert_zpl_to_pdf(zpl, output_file)
         assert output_file.read_bytes() == fake_pdf
-        mock_post.assert_called_once_with(url, headers=headers, files=files, stream=True)
+        mock_post.assert_called_once_with(
+            url,
+            headers={'Accept': 'application/pdf'},
+            files={'file': zpl},
+            stream=True,
+        )

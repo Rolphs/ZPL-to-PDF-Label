@@ -1,6 +1,6 @@
 import os
 import re
-from logger import logger
+from zpl_to_pdf.logger import logger
 
 LABEL_WIDTH_DOTS = 4 * 300
 LABEL_HEIGHT_DOTS = 6 * 300
