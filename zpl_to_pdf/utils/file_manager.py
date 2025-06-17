@@ -1,11 +1,11 @@
 import os
 import zipfile
 import sys
-from logger import logger
+from zpl_to_pdf.logger import logger
 from tkinter import filedialog
-from generate import convert_zpl_to_pdf
-from optimize import optimize_zpl
-from utils.model_manager import sugerir_nombre_archivo, actualizar_modelo_guardado
+from zpl_to_pdf.generate import convert_zpl_to_pdf
+from zpl_to_pdf.optimize import optimize_zpl
+from zpl_to_pdf.utils.model_manager import sugerir_nombre_archivo, actualizar_modelo_guardado
 
 def leer_archivo_zpl(ruta_archivo):
     """

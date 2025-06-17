@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from tkinterdnd2 import TkinterDnD, DND_FILES
-from utils.file_manager import manejar_archivo_seleccionado, manejar_archivos_lote
-from logger import logger
+from zpl_to_pdf.utils.file_manager import manejar_archivo_seleccionado, manejar_archivos_lote
+from zpl_to_pdf.logger import logger
 
 class ZPLToPDFApp(TkinterDnD.Tk):
     def __init__(self):
