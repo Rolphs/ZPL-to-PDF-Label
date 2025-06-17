@@ -78,6 +78,12 @@ pip install -r requirements.txt
 python main.py
 ```
 
+También puedes ejecutar la aplicación como un módulo de Python:
+
+```sh
+python -m zpl_to_pdf
+```
+
 ## Compilación a un Ejecutable
 
 ### En macOS
