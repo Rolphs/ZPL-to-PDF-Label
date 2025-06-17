@@ -1,5 +1,3 @@
-import os
-import sys
 from logger import logger
 from menu import main as menu_main  # Importamos el main desde menu.py
 from utils.model_manager import mostrar_etiquetas_generadas
